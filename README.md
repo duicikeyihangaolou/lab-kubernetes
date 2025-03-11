@@ -1,6 +1,6 @@
 # lab-kubernetes
 
-- 原始文档在 Github: <https://github.com/wu-wenxiang/lab-kubernetes>
+- 原始文档在 Github: <https://github.com/duicikeyihangaolou/lab-kubernetes>
 - 同步到 Gitee: <https://gitee.com/wu-wen-xiang/lab-kubernetes>
 
 ## 课程列表

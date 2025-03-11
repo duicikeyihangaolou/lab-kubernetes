@@ -322,19 +322,19 @@ SOA 的事件教训：
 #### 1.3.2 Restful API
 
 Restful API
-设计：[Github](https://github.com/wu-wenxiang/training-python-public/blob/master/doc/autotest.md#41-rest-api-%E6%8E%A5%E5%8F%A3%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5)
+设计：[Github](https://github.com/duicikeyihangaolou/training-python-public/blob/master/doc/autotest.md#41-rest-api-%E6%8E%A5%E5%8F%A3%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5)
 或
 [Gitee](https://gitee.com/wu-wen-xiang/training-python/blob/master/doc/autotest.md#41-rest-api-%E6%8E%A5%E5%8F%A3%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5)
 
 Restful Demo:
 
-- Flask：[Github](https://github.com/wu-wenxiang/rest_api_demo) 或
+- Flask：[Github](https://github.com/duicikeyihangaolou/rest_api_demo) 或
   [Gitee](https://gitee.com/wu-wen-xiang/rest_api_demo)
-- Pecan：[Github](https://github.com/wu-wenxiang/restful-api-demo) 或
+- Pecan：[Github](https://github.com/duicikeyihangaolou/restful-api-demo) 或
   [Gitee](https://gitee.com/wu-wen-xiang/restful-api-demo)
-- Django：[Github](https://github.com/wu-wenxiang/Training-Django-Public/tree/master/09-RestAPI) 或
+- Django：[Github](https://github.com/duicikeyihangaolou/Training-Django-Public/tree/master/09-RestAPI) 或
   [Gitee](https://gitee.com/wu-wen-xiang/training-django/tree/master/09-RestAPI)
-- FastAPI：[Github](https://github.com/wu-wenxiang/fastapi-demo) 或
+- FastAPI：[Github](https://github.com/duicikeyihangaolou/fastapi-demo) 或
   [Gitee](https://gitee.com/wu-wen-xiang/fastapi-demo)
 
 [FastAPI Demo](#132-restful-api) 用到了脚手架，是 Python
@@ -358,7 +358,7 @@ curl -sfL https://oss.hanamichi.wiki/install.sh | bash
 mv blade /usr/local/bin/
 
 # 初始化项目，设置作者，仓库名，项目名
-blade init --owner "wu-wenxiang" --repo github.com/wu-wenxiang/blade-test --project-name blade-test
+blade init --owner "duicikeyihangaolou" --repo github.com/duicikeyihangaolou/blade-test --project-name blade-test
 ```
 
 ```console
@@ -426,11 +426,11 @@ index 8f12e6c..241c979 100644
 --- a/pkg/server/server.go
 +++ b/pkg/server/server.go
 @@ -32,6 +32,7 @@ import (
-        "github.com/wu-wenxiang/blade-test/pkg/healthz"
-        "github.com/wu-wenxiang/blade-test/pkg/logger"
-        "github.com/wu-wenxiang/blade-test/pkg/server/filters"
-+       authv1 "github.com/wu-wenxiang/blade-test/pkg/server/handler/auth/v1"
-        "github.com/wu-wenxiang/blade-test/pkg/server/validate"
+        "github.com/duicikeyihangaolou/blade-test/pkg/healthz"
+        "github.com/duicikeyihangaolou/blade-test/pkg/logger"
+        "github.com/duicikeyihangaolou/blade-test/pkg/server/filters"
++       authv1 "github.com/duicikeyihangaolou/blade-test/pkg/server/handler/auth/v1"
+        "github.com/duicikeyihangaolou/blade-test/pkg/server/validate"
         //+blade:scaffold:imports
  )
 @@ -99,6 +100,7 @@ func (s *Service) buildHandlerChain(ctx context.Context) error {
@@ -620,7 +620,7 @@ go run ./main.go
 
 #### 1.3.3 API 测试
 
-参考自动化测试：[Github](https://github.com/wu-wenxiang/training-python-public/blob/master/doc/autotest.md)
+参考自动化测试：[Github](https://github.com/duicikeyihangaolou/training-python-public/blob/master/doc/autotest.md)
 或 [Gitee](https://gitee.com/wu-wen-xiang/training-python/blob/master/doc/autotest.md)
 
 - 单元测试：unittest / pytest
